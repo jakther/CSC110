@@ -1,0 +1,33 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package evilcasino;
+import java.util.Scanner;
+/**
+ *
+ * @author jahanara.akther
+ */
+public class Evilcasino {
+
+     public static void main(String[] args) {
+         //Todo code application logic here
+         
+       Scanner in = new Scanner(System.in);
+       int name;
+      
+    
+       System.out.println("welcome to the evilcasino");
+       System.out.println("(\u0033)");
+       System.out.println("(\u2764)");
+      System.out.println("what is your name?");
+      String name1 = in.nextLine();
+      System.out.println("Today you are here to change your fate?");
+      System.out.println("Today your lucky number is?");
+      System.out.println("(\u0037)");
+      String fate = in.nextLine();
+      System.out.println("how much money do you want to bet today?");
+      String money = in.nextLine();
+      
+
+     }   }
